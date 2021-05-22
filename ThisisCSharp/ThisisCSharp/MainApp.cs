@@ -72,7 +72,7 @@ namespace ThisisCSharp
 
         //}
 
-        // P54 Overflow
+        // P55 Overflow
         //static void Main(string[] args)
         //{
         //    uint a = uint.MaxValue;
@@ -83,6 +83,361 @@ namespace ThisisCSharp
         //    Console.WriteLine(a);
 
         //}
+
+        // P58 FloatingPoint
+        //static void Main(string[] args)
+        //{
+        //    float a = 3.14159265358979323846f;
+        //    Console.WriteLine(a);
+
+        //    double b = 3.14159265358979323846;
+        //    Console.WriteLine(b);
+        //}
+
+
+
+        // P60 Decimal
+        //static void Main(string[] args)
+        //{
+        //    float a = 3.141592653589793238462643383279f;
+        //    double b = 3.141592653589793238462643383279;
+        //    decimal c = 3.141592653589793238462643383279m;
+
+        //    Console.WriteLine(a);
+        //    Console.WriteLine(b);
+        //    Console.WriteLine(c);
+        //}
+
+
+        // P61 Char & String
+        //static void Main(string[] args)
+        //{
+        //    char a = '안';
+        //    char b = '녕';
+        //    char c = '하';
+        //    char d = '세';
+        //    char e = '요';
+
+        //    Console.Write(a);
+        //    Console.Write(b);
+        //    Console.Write(c);
+        //    Console.Write(d);
+        //    Console.Write(e);
+        //    Console.WriteLine();
+
+        //    string f = "안녕하세요";
+        //    string g = "홍길동입니다.";
+
+        //    Console.WriteLine(f);
+        //    Console.WriteLine(g);
+        //}
+
+
+
+
+        // P67 Object
+        //static void Main(string[] args)
+        //{
+        //    object a = 123;
+        //    object b = 3.141592653545464545543m;
+        //    object c = true;
+        //    object d = "안녕하세요";
+
+        //    Console.WriteLine(a);
+        //    Console.WriteLine(b);
+        //    Console.WriteLine(c);
+        //    Console.WriteLine(d);
+        //}
+
+
+
+        // P69 BoxingUnboxing
+        //static void Main(string[] args)
+        //{
+        //    int a = 123;
+        //    object b = (object)a; // a에 담긴 값을 박싱해서 힙에 저장
+        //    int c = (int)b; // b에 담긴 값을 언박싱해서 스택에 저장
+
+        //    Console.WriteLine(a);
+        //    Console.WriteLine(b);
+        //    Console.WriteLine(c);
+
+        //    double x = 3.1414231;
+        //    object y = x; // x에 담긴 값을 박싱해서 힙에 저장
+        //    double z = (double)y; // y에 담긴 값을 언박싱해서 스택에 저장
+
+        //    Console.WriteLine(x);
+        //    Console.WriteLine(y);
+        //    Console.WriteLine(z);
+        //}
+
+
+
+        // P71 IntegralConversion
+        //static void Main(string[] args)
+        //{
+        //    sbyte a = 127;
+        //    Console.WriteLine(a);
+
+        //    int b = (int)a;
+        //    Console.WriteLine(b);
+
+        //    int x = 128; // sbyte의 최대값 127보다 1 큰 수
+        //    Console.WriteLine(x);
+
+        //    sbyte y = (sbyte)x; // 오버플로가 발생
+        //    Console.WriteLine(y);
+        //}
+
+
+        // P73 FloatConversion
+        //static void Main(string[] args)
+        //{
+        //    float a = 69.6875f;
+        //    Console.WriteLine("a = {0}", a);
+
+        //    double b = (double)a;
+        //    Console.WriteLine("b ={0}", b);
+        //    Console.WriteLine("69.6875 == b : {0}", 69.6875 == b);
+
+        //    float x = 0.1f;
+        //    Console.WriteLine("x : {0}", x);
+
+        //    double y = (double)x;
+        //    Console.WriteLine("y : {0}", y);
+
+        //    Console.WriteLine("0.1 == y : {0}", 0.1 == y);
+        //}
+
+
+
+
+        // P75 FloatToIntegral
+        //static void Main(string[] args)
+        //{
+        //    float a = 0.9f;
+        //    int b = (int)a;
+        //    Console.WriteLine(b);
+
+        //    float c = 1.1f;
+        //    int d = (int)c;
+        //    Console.WriteLine(d);
+        //}
+
+
+
+
+        // P77 StringNumberConverion
+        //static void Main(string[] args)
+        //{
+        //    int a = 123;
+        //    string b = a.ToString();
+        //    Console.WriteLine(b);
+
+        //    float c = 3.14f;
+        //    string d = c.ToString();
+        //    Console.WriteLine(d);
+
+        //    string e = "123456";
+        //    int f = Convert.ToInt32(e);
+        //    Console.WriteLine(f);
+
+        //    string g = "1.2345";
+        //    float h = float.Parse(g);
+        //    Console.WriteLine(h);
+        //}
+
+        
+        // P82 Enum
+        //enum DialogResult
+        //{
+        //    YES, NO, CANCEL, CONFIRM, OK
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    DialogResult result = DialogResult.YES;
+
+        //    Console.WriteLine(result == DialogResult.YES);
+        //    Console.WriteLine(result ==DialogResult.NO);
+        //    Console.WriteLine(result == DialogResult.CANCEL);
+        //    Console.WriteLine(result == DialogResult.CONFIRM);
+        //    Console.WriteLine(result == DialogResult.OK);
+        //}
+
+        
+
+
+
+        // P87 Nullable
+        //static void Main(string[] args)
+        //{
+        //    int? a = null;
+        //    Console.WriteLine(a.HasValue);
+        //    Console.WriteLine(a != null);
+
+        //    a = 3;
+
+        //    Console.WriteLine(a.HasValue);
+        //    Console.WriteLine(a != null);
+        //    Console.WriteLine(a.Value);
+        //}
+
+
+
+        // P89 UsingVar
+        //static void Main(string[] args)
+        //{
+        //    var a = 20;
+        //    Console.WriteLine("Type : {0}, Value : {1}", a.GetType(), a);
+
+        //    var b = 3.1414213;
+        //    Console.WriteLine("Type : {0}, Value : {1}", b.GetType(), b);
+
+        //    var c = "Hello, World!";
+        //    Console.WriteLine("Type : {0}, Value : {1}", c.GetType(), c);
+
+        //    var d = new int[] { 10, 20, 30, 40 };
+        //    Console.Write("Type : {0}, Value : ", d.GetType());
+
+        //    foreach(var e in d)
+        //    {
+        //        Console.Write("{0}" + " ", e);
+        //    }
+
+        //    Console.WriteLine();
+        //}
+
+
+
+        // P92 CTS
+        //static void Main(string[] args)
+        //{
+        //    System.Int32 a = 123;
+        //    int b = 456;
+
+        //    Console.WriteLine("a type:{0}, value:{1}", a.GetType().ToString(), a);
+        //    Console.WriteLine("b type:{0}, value:{1}", b.GetType().ToString(), b);
+
+        //    System.String c = "abc";
+        //    string d = "def";
+
+        //    Console.WriteLine("c type:{0}, value:{1}", c.GetType().ToString(), c);
+        //    Console.WriteLine("d type:{0}, value:{1}", d.GetType().ToString(), d);
+        //}
+
+
+
+
+        // P94 StringSearch
+        //static void Main(string[] args)
+        //{
+        //    string greeting = "Good Morning";
+
+        //    Console.WriteLine(greeting);
+        //    Console.WriteLine();
+
+        //    // IndexOf()
+        //    Console.WriteLine("Indexof 'Good' : {0}", greeting.IndexOf("Good"));
+        //    Console.WriteLine("Indexof 'o' : {0}", greeting.IndexOf("o"));
+
+        //    // LastIndexOf()
+        //    Console.WriteLine("LastIndexOf 'Good' : {0}", greeting.LastIndexOf("Good"));
+        //    Console.WriteLine("LastIndexOf 'o' : {0}", greeting.LastIndexOf("o"));
+
+        //    // StartsWith()
+        //    Console.WriteLine("StartsWith 'Good' : {0}", greeting.StartsWith("Good"));
+        //    Console.WriteLine("StartsWith 'Morning' : {0}", greeting.StartsWith("Morning"));
+
+        //    // EndsWith()
+        //    Console.WriteLine("EndsWith 'Good' : {0}", greeting.EndsWith("Good"));
+        //    Console.WriteLine("EndsWith 'Morning' : {0}", greeting.EndsWith("Morning"));
+
+        //    // Contains()
+        //    Console.WriteLine("Contains 'Evening' : {0}", greeting.Contains("Evening"));
+        //    Console.WriteLine("Contains 'Morning' : {0}", greeting.Contains("Morning"));
+
+        //    // Replace()
+        //    Console.WriteLine("Replaced 'Morning' with 'Evening' : {0}", greeting.Replace("Morning", "Evening"));
+        //}
+
+
+
+
+
+        // P96 StringModify
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("ToLower() : {0}", "ABC".ToLower());
+        //    Console.WriteLine("ToUpper() : {0}", "abc".ToUpper());
+
+        //    Console.WriteLine("Insert() : {0}", "Happy Friday!".Insert(5, "Sunny"));
+        //    Console.WriteLine("Remove() : {0}", "I Don't Love You.".Remove(2, 6));
+
+        //    Console.WriteLine("Trim() : {0}", "No Spaces ".Trim());
+        //    Console.WriteLine("TrimStart() : {0}", " No Spaces ".TrimStart());
+        //    Console.WriteLine("TrimEnd() : {0}", " No Spaces ".TrimEnd());
+
+        //    string greeting = "Good morning.";
+
+        //    Console.WriteLine(greeting.Substring(0, 5));
+        //    Console.WriteLine(greeting.Substring(5));
+        //    Console.WriteLine();
+
+        //    string[] arr = greeting.Split(new string[] { " " }, StringSplitOptions.None);
+        //    Console.WriteLine("Word Count : {0}", arr.Length);
+
+        //    foreach (string element in arr)
+        //    {
+        //        Console.WriteLine("{0}", element);
+        //    }
+
+        //    string fmt = "{0,-20}{1,-15}{2,30}";
+
+        //    Console.WriteLine(fmt, "Publisher", "Author", "Title");
+        //}
+
+
+
+        // P104 StringFormatNumber
+        //static void Main(string[] args)
+        //{
+        //    // D : 10진수
+        //    Console.WriteLine("10진수 : {0:D}", 123);
+        //    Console.WriteLine("10진수 : {0:D5}", 123);
+
+        //    // X : 16진수
+        //    Console.WriteLine("16진수 : 0x{0:X}", 0xFF1234);
+        //    Console.WriteLine("16진수 : 0x{0:X8}", 0xFF1234);
+
+        //    // N : 숫자
+        //    Console.WriteLine("숫자 : {0:N}", 123456789);
+        //    Console.WriteLine("숫자 : {0:N0}", 123456789);
+
+        //    // F : 고정소수점
+        //    Console.WriteLine("고정소수점 : {0:F}", 123.456);
+        //    Console.WriteLine("고정소수점 : {0:F5}", 123.456);
+
+        //    // E : 공학용
+        //    Console.WriteLine("공학 : {0:E}", 123.456789);
+        //}
+
+
+
+        // P111 String
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("사각형의 너비를 입력하세요.");
+        //    string width = Console.ReadLine();
+
+        //    Console.WriteLine("사각형의 높이를 입력하세요.");
+        //    string height = Console.ReadLine();
+
+        //    int result = int.Parse(width) * int.Parse(height);
+        //    Console.WriteLine(result);
+        //}
+
+
 
     }
 }
