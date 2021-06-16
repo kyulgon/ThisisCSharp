@@ -1,0 +1,7 @@
+C:\Users\zlzls\Desktop\thisisCSharp3\thisisCSharp3\bin\Debug\thisisCSharp3.exe.config
+C:\Users\zlzls\Desktop\thisisCSharp3\thisisCSharp3\bin\Debug\thisisCSharp3.exe
+C:\Users\zlzls\Desktop\thisisCSharp3\thisisCSharp3\bin\Debug\thisisCSharp3.pdb
+C:\Users\zlzls\Desktop\thisisCSharp3\thisisCSharp3\obj\Debug\thisisCSharp3.csprojAssemblyReference.cache
+C:\Users\zlzls\Desktop\thisisCSharp3\thisisCSharp3\obj\Debug\thisisCSharp3.csproj.CoreCompileInputs.cache
+C:\Users\zlzls\Desktop\thisisCSharp3\thisisCSharp3\obj\Debug\thisisCSharp3.exe
+C:\Users\zlzls\Desktop\thisisCSharp3\thisisCSharp3\obj\Debug\thisisCSharp3.pdb
