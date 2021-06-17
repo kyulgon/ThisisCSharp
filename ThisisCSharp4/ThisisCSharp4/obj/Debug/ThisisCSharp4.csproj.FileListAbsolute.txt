@@ -1,0 +1,7 @@
+D:\GitHub_portfolio\ThisisCSharp\ThisisCSharp4\ThisisCSharp4\bin\Debug\ThisisCSharp4.exe.config
+D:\GitHub_portfolio\ThisisCSharp\ThisisCSharp4\ThisisCSharp4\bin\Debug\ThisisCSharp4.exe
+D:\GitHub_portfolio\ThisisCSharp\ThisisCSharp4\ThisisCSharp4\bin\Debug\ThisisCSharp4.pdb
+D:\GitHub_portfolio\ThisisCSharp\ThisisCSharp4\ThisisCSharp4\obj\Debug\ThisisCSharp4.csprojAssemblyReference.cache
+D:\GitHub_portfolio\ThisisCSharp\ThisisCSharp4\ThisisCSharp4\obj\Debug\ThisisCSharp4.csproj.CoreCompileInputs.cache
+D:\GitHub_portfolio\ThisisCSharp\ThisisCSharp4\ThisisCSharp4\obj\Debug\ThisisCSharp4.exe
+D:\GitHub_portfolio\ThisisCSharp\ThisisCSharp4\ThisisCSharp4\obj\Debug\ThisisCSharp4.pdb
