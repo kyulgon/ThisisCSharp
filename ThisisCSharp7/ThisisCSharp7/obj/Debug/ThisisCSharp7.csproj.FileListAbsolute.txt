@@ -1,0 +1,14 @@
+C:\Users\Yulgon\Desktop\ThisisCSharp7\ThisisCSharp7\bin\Debug\ThisisCSharp7.exe.config
+C:\Users\Yulgon\Desktop\ThisisCSharp7\ThisisCSharp7\bin\Debug\ThisisCSharp7.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp7\ThisisCSharp7\bin\Debug\ThisisCSharp7.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.csproj.AssemblyReference.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.csproj.CoreCompileInputs.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp7\ThisisCSharp7\bin\Debug\ThisisCSharp7.exe.config
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp7\ThisisCSharp7\bin\Debug\ThisisCSharp7.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp7\ThisisCSharp7\bin\Debug\ThisisCSharp7.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.csproj.AssemblyReference.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.csproj.CoreCompileInputs.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp7\ThisisCSharp7\obj\Debug\ThisisCSharp7.pdb

@@ -1,0 +1,7 @@
+C:\Users\Yulgon\Desktop\ThisisCSharp\File_inoutput\File_inoutput\bin\Debug\File_inoutput.exe.config
+C:\Users\Yulgon\Desktop\ThisisCSharp\File_inoutput\File_inoutput\bin\Debug\File_inoutput.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\File_inoutput\File_inoutput\bin\Debug\File_inoutput.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp\File_inoutput\File_inoutput\obj\Debug\File_inoutput.csproj.AssemblyReference.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\File_inoutput\File_inoutput\obj\Debug\File_inoutput.csproj.CoreCompileInputs.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\File_inoutput\File_inoutput\obj\Debug\File_inoutput.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\File_inoutput\File_inoutput\obj\Debug\File_inoutput.pdb

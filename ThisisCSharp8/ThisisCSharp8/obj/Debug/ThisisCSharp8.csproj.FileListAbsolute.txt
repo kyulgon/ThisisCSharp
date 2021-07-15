@@ -1,0 +1,7 @@
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp8\ThisisCSharp8\bin\Debug\ThisisCSharp8.exe.config
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp8\ThisisCSharp8\bin\Debug\ThisisCSharp8.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp8\ThisisCSharp8\bin\Debug\ThisisCSharp8.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp8\ThisisCSharp8\obj\Debug\ThisisCSharp8.csproj.AssemblyReference.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp8\ThisisCSharp8\obj\Debug\ThisisCSharp8.csproj.CoreCompileInputs.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp8\ThisisCSharp8\obj\Debug\ThisisCSharp8.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp8\ThisisCSharp8\obj\Debug\ThisisCSharp8.pdb

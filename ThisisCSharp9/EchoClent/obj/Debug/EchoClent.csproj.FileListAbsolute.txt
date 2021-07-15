@@ -1,0 +1,6 @@
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\EchoClent\bin\Debug\EchoClent.exe.config
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\EchoClent\bin\Debug\EchoClent.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\EchoClent\bin\Debug\EchoClent.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\EchoClent\obj\Debug\EchoClent.csproj.CoreCompileInputs.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\EchoClent\obj\Debug\EchoClent.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\EchoClent\obj\Debug\EchoClent.pdb
