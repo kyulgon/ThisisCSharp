@@ -5,44 +5,24 @@ using UnityEngine.UI;
 
 public class UserObject : MonoBehaviour
 {
-    [SerializeField] private uint m_id = 0;
-    [SerializeField] private string m_name = string.Empty;
-    [SerializeField] private string m_phoneNum = string.Empty;
+    [SerializeField] private User_Gon m_data = null;
 
+    public User_Gon Data => m_data;
 
-    public uint ID // cube에 id값을 넣어주기 위해
+    public void Bind(User_Gon data)
     {
-        get
-        {
-            return m_id;
-        }
-        set
-        {
-            m_id = value;
-        }
+        m_data = data;
+        OnPropertyChanged();
     }
 
-    public string Name // cube에 id값을 넣어주기 위해
+    public void OnPropertyChanged()
     {
-        get
+        var data = Data;
+        if (data != null)
         {
-            return m_name;
-        }
-        set
-        {
-            m_name = value;
-        }
-    }
-
-    public string PhoneNumber // cube에 id값을 넣어주기 위해
-    {
-        get
-        {
-            return m_phoneNum;
-        }
-        set
-        {
-            m_phoneNum = value;
+            this.name = data.Name;
+            this.transform.position = data.Position;
+            this.transform.rotation = Quaternion.Euler(data.Rotation);
         }
     }
 }

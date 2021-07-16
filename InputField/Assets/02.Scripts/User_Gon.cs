@@ -76,4 +76,8 @@ public class User_Gon // 데이터를 저장할 곳
         }
     }
 
+    public User_Gon(uint id)
+    {
+        m_id = id;
+    }
 }
