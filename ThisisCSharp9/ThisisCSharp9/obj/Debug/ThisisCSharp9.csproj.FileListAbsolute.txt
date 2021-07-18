@@ -1,0 +1,7 @@
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\ThisisCSharp9\bin\Debug\ThisisCSharp9.exe.config
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\ThisisCSharp9\bin\Debug\ThisisCSharp9.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\ThisisCSharp9\bin\Debug\ThisisCSharp9.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\ThisisCSharp9\obj\Debug\ThisisCSharp9.csproj.AssemblyReference.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\ThisisCSharp9\obj\Debug\ThisisCSharp9.csproj.CoreCompileInputs.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\ThisisCSharp9\obj\Debug\ThisisCSharp9.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\ThisisCSharp9\ThisisCSharp9\obj\Debug\ThisisCSharp9.pdb

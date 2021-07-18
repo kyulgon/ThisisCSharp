@@ -1,0 +1,7 @@
+C:\Users\Yulgon\Desktop\ThisisCSharp\EchoClient\EchoClient\bin\Debug\EchoClient.exe.config
+C:\Users\Yulgon\Desktop\ThisisCSharp\EchoClient\EchoClient\bin\Debug\EchoClient.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\EchoClient\EchoClient\bin\Debug\EchoClient.pdb
+C:\Users\Yulgon\Desktop\ThisisCSharp\EchoClient\EchoClient\obj\Debug\EchoClient.csproj.AssemblyReference.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\EchoClient\EchoClient\obj\Debug\EchoClient.csproj.CoreCompileInputs.cache
+C:\Users\Yulgon\Desktop\ThisisCSharp\EchoClient\EchoClient\obj\Debug\EchoClient.exe
+C:\Users\Yulgon\Desktop\ThisisCSharp\EchoClient\EchoClient\obj\Debug\EchoClient.pdb

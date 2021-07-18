@@ -1,0 +1,7 @@
+C:\Users\zlzls\Desktop\ThisisCSharp\ThisisCSharp5\ThisisCSharp5\bin\Debug\ThisisCSharp5.exe.config
+C:\Users\zlzls\Desktop\ThisisCSharp\ThisisCSharp5\ThisisCSharp5\bin\Debug\ThisisCSharp5.exe
+C:\Users\zlzls\Desktop\ThisisCSharp\ThisisCSharp5\ThisisCSharp5\bin\Debug\ThisisCSharp5.pdb
+C:\Users\zlzls\Desktop\ThisisCSharp\ThisisCSharp5\ThisisCSharp5\obj\Debug\ThisisCSharp5.csproj.CoreCompileInputs.cache
+C:\Users\zlzls\Desktop\ThisisCSharp\ThisisCSharp5\ThisisCSharp5\obj\Debug\ThisisCSharp5.exe
+C:\Users\zlzls\Desktop\ThisisCSharp\ThisisCSharp5\ThisisCSharp5\obj\Debug\ThisisCSharp5.pdb
+C:\Users\zlzls\Desktop\ThisisCSharp\ThisisCSharp5\ThisisCSharp5\obj\Debug\ThisisCSharp5.csproj.AssemblyReference.cache
