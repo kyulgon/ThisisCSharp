@@ -129,54 +129,91 @@ namespace ExtensionMethod
     //}
 
     // P303 Interface
-    interface ILogger // 인터페이스 선언
+    //interface ILogger // 인터페이스 선언
+    //{
+    //    void WriteLog(string message); // 구현부만 있음
+    //}
+
+    //class consoleLogger : ILogger // 인터페이스를 상속하여 구현해줌
+    //{
+    //    public void WriteLog(string message)
+    //    {
+    //        Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
+    //    }
+    //}
+
+    //class FileLogger : ILogger
+    //{
+    //    private StreamWriter writer;
+
+    //    public FileLogger(string path)
+    //    {
+    //        writer = File.CreateText(path);
+    //        writer.AutoFlush = true;
+    //    }
+
+    //    public void WriteLog(string message)
+    //    {
+    //        Console.WriteLine("{0} {1}", DateTime.Now.ToShortDateString(), message);
+    //    }
+    //}
+
+    //class ClimateMonitor
+    //{
+    //    private ILogger logger;
+    //    public ClimateMonitor(ILogger logger)
+    //    {
+    //        this.logger = logger;
+    //    }
+
+    //    public void start()
+    //    {
+    //        while(true)
+    //        {
+    //            Console.Write("온도를 입력해주세요 : ");
+    //            string temperature = Console.ReadLine();
+    //            if (temperature == "")
+    //                break;
+
+    //            logger.WriteLog("현재 온도 : " + temperature);
+    //        }
+    //    }
+    //}
+
+    //class MainApp
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        ClimateMonitor monitor = new ClimateMonitor(new FileLogger("MyLogg.txt"));
+
+    //        monitor.start();
+    //    }
+    //}
+
+
+    // P307 
+    interface ILogger
     {
-        void WriteLog(string message); // 구현부만 있음
+        void WriteLog(string message);
     }
 
-    class consoleLogger : ILogger // 인터페이스를 상속하여 구현해줌
+    interface IFormattableLogger : ILogger // 인터페이스에 인터페이스 상속
     {
+        void WriteLog(string format, params Object[] args);
+    }
+
+    class ConsoleLogger2 : IFormattableLogger // 상속받은 인페이스를 상속
+    {
+        // 인터페이스 둘다 구현해줌
         public void WriteLog(string message)
         {
             Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
         }
-    }
 
-    class FileLogger : ILogger
-    {
-        private StreamWriter writer;
-
-        public FileLogger(string path)
+        public void WriteLog(string format, params Object[] args)
         {
-            writer = File.CreateText(path);
-            writer.AutoFlush = true;
-        }
-
-        public void WriteLog(string message)
-        {
-            Console.WriteLine("{0} {1}", DateTime.Now.ToShortDateString(), message);
-        }
-    }
-
-    class ClimateMonitor
-    {
-        private ILogger logger;
-        public ClimateMonitor(ILogger logger)
-        {
-            this.logger = logger;
-        }
-
-        public void start()
-        {
-            while(true)
-            {
-                Console.Write("온도를 입력해주세요 : ");
-                string temperature = Console.ReadLine();
-                if (temperature == "")
-                    break;
-
-                logger.WriteLog("현재 온도 : " + temperature);
-            }
+            String message = String.Format(format, args);
+            Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
         }
     }
 
@@ -184,9 +221,10 @@ namespace ExtensionMethod
     {
         static void Main(string[] args)
         {
-            ClimateMonitor monitor = new ClimateMonitor(new FileLogger("MyLogg.txt"));
-
-            monitor.start();
+            IFormattableLogger logger = new ConsoleLogger2();
+            logger.WriteLog("{0} + {1} = {2}", 1, 1, 2); // 순서대로 들어감 1
+            logger.WriteLog("The world is not flat");   // 2
+            
         }
     }
 }
